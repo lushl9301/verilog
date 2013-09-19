@@ -1,5 +1,6 @@
 Look Up Table
 =============
+
 Think about the lookup table of trigonometric. We skipped the calculation parts and just note down the value after one time calculation.
 
 Think about the memoization searching. 
@@ -10,6 +11,7 @@ Think about the memoization searching.
 
 
 usage:
+------
   
   *Memory
      <ul>
@@ -26,7 +28,8 @@ usage:
     <li>We can combine LUTs</li>
     </ul>
 
-example 1
+*example 1
+---------
 
 0000
 0001
@@ -56,9 +59,12 @@ example 1
 the LUT will be 64'H5555_3333_0F0F_00FF
 
 
-example 2
+*example 2
+---------
 a 4-input LUT contents 16'h84B7
+
 1000_0100_1011_0111
 
-F(3:0) = 0, 5, 8, 10, 11, 13, 14, 15
+	F(3:0) = 0, 5, 8, 10, 11, 13, 14, 15
+
 make a K-map then. figure out minimized gate-level circuit.
