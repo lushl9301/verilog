@@ -10,13 +10,19 @@ Think about the memoization searching.
 
 
 usage:
-  Memory
+  
+  [h2]Memory
      use LUT as a memory 6-input LUT -> 64*1bit memory (2^6==64) can be combined
-  shift register
+
+  [h2]shift register
+
     each clock cycle content shift by 1. New shift in ->  able to select length
-    [a link](http://www.xilinx.com/support/documentation/application_notes/xapp465.pdf)
+
+    [http://www.xilinx.com/support/documentation/application_notes/xapp465.pdf](http://www.xilinx.com/support/documentation/application_notes/xapp465.pdf)
+    
     don't understand
-  multiplexer
+  
+  [h2]multiplexer
     6-bit LUT can implement a 4-by-1 multiplexer (2 bit for sel)
     2 6-bit LUTs + a 2-by-1 multiplexer can implement a 8-by 1 multiplexer
     We can combine LUTs
