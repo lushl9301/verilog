@@ -60,11 +60,11 @@ the LUT will be 64'H5555_3333_0F0F_00FF
 
 
 *example 2
----------
+----------
 a 4-input LUT contents 16'h84B7
 
 1000_0100_1011_0111
 
-	F(3:0) = 0, 5, 8, 10, 11, 13, 14, 15
+F(3:0) = 0, 5, 8, 10, 11, 13, 14, 15
 
 make a K-map then. figure out minimized gate-level circuit.
