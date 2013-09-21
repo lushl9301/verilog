@@ -12,11 +12,11 @@
  */
 
 module swap2Value(input aIn, bIn, clk, output reg aOut, bOut);
-   always @(posedge clk)
-     begin
-	aOut <= bIn;
-	bOut <= aIn;
-     end      
+  always @(posedge clk)
+    begin
+	    aOut <= bIn;
+	    bOut <= aIn;
+    end      
 endmodule // swap2Value
 
 //performed well on xilinx tools. next time try to figure out the implementation.
