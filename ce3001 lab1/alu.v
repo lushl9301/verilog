@@ -23,6 +23,11 @@ module alu(A, B, op, out, imm);
         begin
           tmp = {A, A} << imm;
           out = tmp[31:16];
+          //okay, the right way to do the rotate is
+          //out = {A << imm | A >> (16 - imm)}
+          //corner situation is not tested yet.
+          //should be correct
+          //but this is the correct way of rotate without register
         end
       default: out = 16'd0;
     endcase
