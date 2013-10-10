@@ -44,7 +44,7 @@ module FBCtl(
       if(i_rst|i_vsync)
         begin
           X <= 0;
-		      Y <= 0;
+          Y <= 0;
         end
       else
         begin
@@ -77,7 +77,7 @@ module FBCtl(
         begin
           frame_buffer_wr_en <= 1'b1;
           wr_addr <= i_x + 400*i_y;
-		      wr_data <= i_data;	  
+          wr_data <= i_data;	  
         end
     end  
 endmodule
