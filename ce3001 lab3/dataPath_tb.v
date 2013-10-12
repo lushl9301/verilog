@@ -12,6 +12,7 @@ module dataPath_tb();
   always #5 clk = ~clk;
   initial begin
     reset = 0;
+    clk = 0;
     #20 reset = 1;
     repeat (20) begin
       InitSel = 0;
