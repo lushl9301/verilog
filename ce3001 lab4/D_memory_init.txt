@@ -1,0 +1,17 @@
+// This file is used to initialize D_memory
+//
+// brief of slots in D_memory
+// mem[0]:  F0 in Fibonacci numbers
+// mem[1]:  F1 in Fibonacci numbers
+// mem[2]:  2nd operand
+// mem[3]:  addition 
+// mem[4]:  index of Fibonacci numbers
+// mem[5]:  step of loop
+//
+// Data in Hex starting from mem[0]
+0000
+0001
+0000
+0000
+000A
+0001
